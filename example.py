@@ -238,7 +238,7 @@ def fullmap():
         currLat, currLon = pokemon[-2], pokemon[-1]
         pokeMarkers.append(
             {
-                'icon': 'static/icons/'+str(pokemon[0])+'.png',
+                'icon': 'https://img.pokemondb.net/sprites/black-white/normal/%s.png' % str(pokemon[1]).lower(),
                 'lat': currLat,
                 'lng': currLon,
                 'infobox': pokemon[1]
